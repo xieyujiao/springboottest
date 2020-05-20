@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    #   数据源基本配置
+    username: root
+    password: 123123
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/book?serverTimezone=UTC
+    jpa:
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: true
+server:
+  port: 8181
